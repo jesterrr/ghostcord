@@ -1,0 +1,9 @@
+discord.py>=2.3.2
+pyautogui  
+psutil
+pyperclip
+opencv-python
+pyttsx3
+requests
+pynput
+winsound; platform_system=='Windows' 
