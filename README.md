@@ -1,15 +1,17 @@
-# Ghostcord Agent
+# Ghostcord
 
-A stealthy, modular Discord-based remote administration agent for research, automation, and system management. This agent connects to a Discord channel and can be controlled via bot commands.
+Discord-Bot based Command and Control agent, featured 
+
+## Security & Disclaimer
+- **For educational and authorized research use only.**
+- **The author is NOT responsible for misuse or damages.**
 
 ## Features
 - Modular command system (shell, file, process, info, clipboard, etc.)
-- Stealthy, colorized console output
 - Interactive builder for easy configuration
-- Supports Windows, Linux, and macOS (feature set may vary)
-- Optional dependencies for advanced features (see below)
+- Supports Windows, Linux (Feature set may vary)
 
-## Quick Start
+## How To Install
 
 ### 1. Clone the Repository
 ```bash
@@ -17,7 +19,7 @@ git clone https://github.com/yourusername/ghostcord.git
 cd ghostcord/ghostcord-agent
 ```
 
-### 2. Install Requirements
+### 2. Instal requirements (VERY IMPORTANT)
 ```bash
 pip install -r requirements.txt
 ```
@@ -58,15 +60,7 @@ Install them as needed:
 pip install pyautogui psutil pyperclip opencv-python pyttsx3 requests
 ```
 
-## Security & Disclaimer
-- **For educational and authorized research use only.**
-- Do not deploy this agent on systems you do not own or have explicit permission to control.
-- The authors are not responsible for misuse or damages.
-
 ## Customization
 - Edit `agent_template.py` to add/remove features or change behavior.
 - The builder (`builder.py`) will always generate a fresh, configured agent for you.
 
----
-
-**Ghostcord Agent** — Simple, stealthy, and powerful. For questions or contributions, open an issue or pull request! 
