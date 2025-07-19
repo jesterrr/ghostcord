@@ -1,6 +1,6 @@
 # Ghostcord
 
-Discord-Bot based Command and Control agent, featured 
+Discord-Bot based Command and Control agent
 
 ## Security & Disclaimer
 - **For educational and authorized research use only.**
@@ -15,8 +15,8 @@ Discord-Bot based Command and Control agent, featured
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/ghostcord.git
-cd ghostcord/ghostcord-agent
+git clone https://github.com/jesterrr/ghostcord.git
+cd ghostcord/
 ```
 
 ### 2. Instal requirements (VERY IMPORTANT)
